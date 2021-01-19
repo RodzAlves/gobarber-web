@@ -8,6 +8,21 @@ export default createGlobalStyle`
     outline: 0;
   }
 
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+      -webkit-text-fill-color: #f4ede8;
+      -webkit-box-shadow: 0 0 0px 1000px #232129 inset;
+      -webkit-cursor-visibility: #f4ede8;
+
+    }
+
   body {
     background: #312e38;
     color: #fff;
