@@ -1,5 +1,5 @@
 {
-  "name": "gostack-first-project-react",
+  "name": "gobarber-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,9 +44,10 @@
     "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^7.1.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
