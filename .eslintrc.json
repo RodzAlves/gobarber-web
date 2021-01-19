@@ -31,10 +31,12 @@
   ],
   "rules": {
     "camelcase": "off",
+    "no-empty": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
+    "import/no-useless-path-segments": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
