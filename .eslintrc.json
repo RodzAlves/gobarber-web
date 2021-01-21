@@ -41,6 +41,12 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
+    "@typescript-eslint/ban-types": ["error", {
+      "types": {
+        "object": false
+      },
+      "extendDefaults": true
+    }],
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "import/extensions": [
       "error",
